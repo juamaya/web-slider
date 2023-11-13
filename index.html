@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIDER</title>
+
+    <!-- bootstrap@5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/btnHome.css">
+</head>
+
+<body>
+    <header id="Home">
+        <nav class="navbar bg-dark border-bottom   " data-bs-theme="dark">
+            <div class="container-fluid">
+
+                <img class="navbar-brand" src="./images/girl.jpg" width="40px" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Jobs">Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo">CARRUSEL DE IMAGENES</h1>
+
+        <div class="contenedor-slider">
+            <div class="slider-izq">
+                <img src="./images/izq.avif" alt="izq">
+            </div>
+            <div class="slider-screen">
+                <img name="Imagen" src="./images/imagen4.jpg" alt="screen">
+            </div>
+            <div class="slider-der">
+                <img src="./images/der.avif" alt="der">
+            </div>
+        </div>
+
+
+
+
+        <!-- About us -->
+        <section id="About">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, itaque delectus. Temporibus laudantium
+                impedit eligendi doloribus doloremque iusto commodi iure iste, architecto magnam reiciendis fuga modi
+                voluptas culpa aperiam a.</p>
+
+            <!-- offcanvas -->
+
+            <button class="btn btn-primary m-5 fs-1" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">About us</button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header bg-primary ">
+                    <h5 class="offcanvas-title  fs-2 " id="offcanvasScrollingLabel">About us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-primary text-light ">
+                    <img class="mb-5" src="./images/papa.jpg" width="300" alt="">
+                    <h5> Juan Marin  </h5>
+                    <h5> Puerto Real (Cadiz)</h5>
+                    <h5> España </h5>
+                    <h5> correo@gmail.com</h5>
+                    <h5> 638 34 76 98 65</h5>
+                </div>
+            </div>
+
+            <!-- offcanvas  end -->
+        </section>
+
+
+
+
+        <a href="#Home">
+            <button class="button">
+                <p>HOME</p>
+            </button>
+        </a>
+        <!-- Services -->
+        <section id="Services">Services
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, itaque delectus. Temporibus laudantium
+                impedit eligendi doloribus doloremque iusto commodi iure iste, architecto magnam reiciendis fuga modi
+                voluptas culpa aperiam a.</p>
+            <div class="card-group   " >
+                <div class="card bg-info">
+                    <img src="./images/traveling.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card bg-info">
+                    <img src="./images/beer.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card bg-info">
+                    <img src="./images/ilustracion1.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card bg-info">
+                    <img src="./images/nature.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card bg-info">
+                  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="./images/barbecue.svg" class="card-img-top" alt="...">
+                </div>
+                <div class="card bg-info">
+                    <img src="./images/mobile_app.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <a href="#Home">
+            <button class="button">
+                <p>HOME</p>
+            </button>
+        </a>
+        <!-- Jobs -->
+        <section id="Jobs">Jobs
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, itaque delectus. Temporibus laudantium
+                impedit eligendi doloribus doloremque iusto commodi iure iste, architecto magnam reiciendis fuga modi
+                voluptas culpa aperiam a.</p>
+
+            <div class="card m-3 bg-dark-subtle  ">
+                <div class=" row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/developer.svg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text text-dark-emphasis ">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card m-3 bg-warning">
+                <div class=" row g-0">
+
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text  text-dark-emphasis">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/aircraft.svg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card m-3  bg-success">
+                <div class=" row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/electricity.svg" width="300" height="300" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text  ">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <a href="#Home">
+            <button class="button">
+                <p>HOME</p>
+            </button>
+        </a>
+        <!-- Contact -->
+        <section id="Contact">Contact
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, itaque delectus. Temporibus laudantium
+                impedit eligendi doloribus doloremque iusto commodi iure iste, architecto magnam reiciendis fuga modi
+                voluptas culpa aperiam a.</p>
+<h2 class="m-5">FORMULARIO DE CONTACTO</h2>
+            <div class="form bg-secondary" >
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name"
+                        placeholder="name">
+                </div>
+                <div class="mb-3">
+                    <label for="Lastname" class="form-label">Lastname</label>
+                    <input type="text" class="form-control" id="Lastname"
+                        placeholder="name">
+                </div>
+                <div class="mb-3">
+                    <label for="city" class="form-label">Country</label>
+                    <input type="text" class="form-control" id="city"
+                        placeholder="Country">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email"
+                        placeholder="Email">
+                </div>
+ 
+                    <button  id="btn_send" type="submit" class="btn btn-primary w-100  rounded-pill fs-4">Send</button>
+                
+            </div>
+
+        </section>
+
+
+        <a href="#Home">
+            <button class="button">
+                <p>HOME</p>
+            </button>
+        </a>
+
+    </main>
+
+    <input id="btn_Alert" type="button" value="SweetAlert">
+
+
+    <!-- footer -->
+
+
+    <div class="caja">
+        <div class="button">
+            <div class="box">H</div>
+            <div class="box">O</div>
+            <div class="box">V</div>
+            <div class="box">E</div>
+            <div class="box">R</div>
+            <h2> 🔱 2023 🔱</h2>
+        </div>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/sweetAlert.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
